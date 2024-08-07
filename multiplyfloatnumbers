@@ -1,0 +1,12 @@
+import java.util.*;
+class multiplyfloat {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float f1 = sc.nextFloat();
+        float f2 = sc.nextFloat();
+        float ans = f1*f2;
+        System.out.println(ans);
+        
+
+    }
+}
