@@ -1,0 +1,11 @@
+import java.util.*;
+class tables {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int limit = 10;
+        for(int i=1;i<=limit;i++){
+            System.out.println(n+"X"+i+"="+n*i);
+        }
+    }
+}
