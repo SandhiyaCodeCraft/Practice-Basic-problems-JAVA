@@ -1,3 +1,4 @@
+//sum of cube of each digit of a number
 import java.util.*;
 class armstrong{
     public static void main(String[] args) {
