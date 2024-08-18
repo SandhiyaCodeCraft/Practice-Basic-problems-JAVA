@@ -1,0 +1,14 @@
+//compound interest = P(1+R/100)^t;
+//P-PRINCIPAL AMOUNT,T-TIME,R-RATE
+import java.io.*;
+import java.util.*;
+class compoundinterest {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double p=sc.nextDouble();
+        double T=sc.nextDouble();
+        double R=sc.nextDouble();
+        double CI =p*(Math.pow(1+R/100,T));
+        System.out.println(CI);
+    }
+}
