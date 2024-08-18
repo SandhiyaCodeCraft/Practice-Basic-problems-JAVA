@@ -1,3 +1,4 @@
+//sum of factors of number equal to the number
 import java.util.*;
 class perfectnumber{
     public static void main(String[] args) {
