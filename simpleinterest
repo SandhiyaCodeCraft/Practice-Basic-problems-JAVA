@@ -1,3 +1,5 @@
+//simple interest = (P*T*R)/100;
+//P-PRINCIPAL AMOUNT,T-TIME,R-RATE
 import java.util.*;
 class Simpleinterest {
     public static void main(String[] args) {
