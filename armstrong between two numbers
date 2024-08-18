@@ -1,0 +1,26 @@
+import java.util.*;
+class armstrongbetweentwonumbers{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+         int n = sc.nextInt();
+         int m = sc.nextInt();
+         for(int i=n+1;i<m;i++){
+             int o=i;
+             int rem;
+             int ans;
+             int s=0;
+             while(o>0){
+                rem=i%10;
+                ans=rem*rem*rem;
+                s+=ans;
+                o=o/10;
+             }
+            if(s==o){
+             System.out.println(i+"armstrong number");
+            }
+            else{
+             System.out.println(i+"not armtrong number");
+            }
+         }
+    }
+}
