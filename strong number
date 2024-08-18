@@ -1,3 +1,4 @@
+//sum of factorial of each digit of a number
 import java.util.*;
 class strongnumber{
     public static void main(String[] args) {
