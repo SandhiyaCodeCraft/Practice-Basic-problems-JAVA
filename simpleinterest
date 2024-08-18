@@ -1,0 +1,12 @@
+import java.util.*;
+class Simpleinterest {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int p=sc.nextInt();
+        int T=sc.nextInt();
+        int R=sc.nextInt();
+        int SI =(p*T*R)/100;
+        System.out.println(SI);
+        
+    }
+}
