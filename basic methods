@@ -1,0 +1,5 @@
+Integer.toString();
+Integer.bitCount(n)
+Integer.ParseInt(String,2)//to decimal
+Integer.toBinaryString(n);
+Character.toLowerCase(ch);
