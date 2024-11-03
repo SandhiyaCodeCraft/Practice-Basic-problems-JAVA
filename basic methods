@@ -3,3 +3,5 @@ Integer.bitCount(n)
 Integer.ParseInt(String,2)//to decimal
 Integer.toBinaryString(n);
 Character.toLowerCase(ch);
+system.out.printf(floatingnumber);
+Math.max,Math.min,Math.PI,Math.pow
