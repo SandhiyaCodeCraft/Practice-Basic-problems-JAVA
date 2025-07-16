@@ -1,3 +1,16 @@
+python:
+import math
+n=int(input())
+c=len(str(n))
+s=0
+for i in str(n):
+    s+=math.pow(int(i),c)
+if s==n:
+    print("armstrong")
+else:
+    print("not")
+
+
 //sum of cube of each digit of a number
 import java.util.*;
 class armstrong{
