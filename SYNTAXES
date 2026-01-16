@@ -1,3 +1,4 @@
+String.Valueof(num).length()......convert int to string
 Integer.toString();
 Integer.bitCount(n)
 Integer.ParseInt(String,2)//to decimal
