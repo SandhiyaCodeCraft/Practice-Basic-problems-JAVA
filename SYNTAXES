@@ -1,4 +1,6 @@
 String.Valueof(num).length()......convert int to string
+Integer.MAX_VALUE;
+Integer.MIN_VALUE;
 Integer.toString();
 Integer.bitCount(n)
 Integer.ParseInt(String,2)//to decimal
@@ -6,3 +8,10 @@ Integer.toBinaryString(n);
 Character.toLowerCase(ch);
 system.out.printf(floatingnumber);
 Math.max,Math.min,Math.PI,Math.pow
+
+
+HASHMAP
+map.put()
+map.getOrDefault()
+entry.Key()
+entry.Value()
